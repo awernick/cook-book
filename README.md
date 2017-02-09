@@ -1,18 +1,18 @@
 # CookBook (Name Pending)
 
 ## Purpose
-The main goal is to store 'recipes' or aggregation of food items. By storing the recipe, the system will calculate the macro-nutrients and create a database of ingredients. A user will be able to search through the database by either ingredient or by macro-nutrient content.
+The main goal is to store 'recipes' or aggregations of ingredients. By storing the recipe, the system will calculate macro-nutrients and create an index of ingredients. A user will be able to search through the recipes by either ingredient or by macro-nutrient content.
 
 ## Technologies
 - Frontend: Angular
 - Backend: Flask
-- Database: PostgreSQL
+- Database: MongoDB
 - APIs: Nutritionix
 - Mobile: React Native
 
 ## Features
 
-#### Food
+#### Ingredients
 - Search for food through the Nutritionix database or by UPC
 - View individual foods macronutrient content
 - Create a food in case it is not in Nutritionix database
